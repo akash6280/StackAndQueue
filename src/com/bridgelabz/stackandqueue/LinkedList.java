@@ -102,5 +102,11 @@ public class LinkedList<T> {
 		return length;
 	}
 	
+	public void popAll() {
+		while(head!=null) {
+			System.out.println(head.getData());
+			head = head.getNext();
+		}
+	}
 	
 }
