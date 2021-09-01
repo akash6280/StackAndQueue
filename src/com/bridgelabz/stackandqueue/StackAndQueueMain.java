@@ -11,7 +11,8 @@ public class StackAndQueueMain{
 		stack.push(firstNode);
 		stack.push(secondNode);
 		stack.push(thirdNode);
-		stack.printStack();
+		System.out.println(stack.peek());
+		stack.pop();
 		
 	}
 
