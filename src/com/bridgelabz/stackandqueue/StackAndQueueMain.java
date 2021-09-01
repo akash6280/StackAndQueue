@@ -12,6 +12,8 @@ public class StackAndQueueMain{
 		queue.enqueue(secondNode);
 		queue.enqueue(thirdNode);
 		queue.printQueue();
+		queue.deQueue();
+		queue.printQueue();
 		
 	}
 
