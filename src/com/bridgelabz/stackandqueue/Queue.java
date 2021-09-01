@@ -14,4 +14,8 @@ public class Queue<T> {
 	public void printQueue() {
 		myLinkedList.printMyNodes();
 	}
+	
+	public void deQueue() {
+		myLinkedList.popFirst();
+	}
 }
