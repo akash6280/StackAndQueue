@@ -15,4 +15,12 @@ public class Stack<T> {
 		myLinkedList.printMyNodes();
 	}
 	
+	public T peek() {
+		return myLinkedList.head.getData();
+	}
+	
+	public void pop() {
+		myLinkedList.popAll();
+	}
+	
 }
